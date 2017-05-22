@@ -1,0 +1,30 @@
+{
+  "name": "qb-obj-union",
+  "version": "1.0.0",
+  "description": "union objects together with callback to handle collisions (optional)",
+  "homepage": "https://github.com/quicbit-js/qb-obj-union",
+  "url": "https://github.com/quicbit-js/qb-obj-union/issues",
+  "email": "support@quicbit.com",
+  "repository": "quicbit-js/qb-obj-union",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "test-kit": "^2.5.1"
+  },
+  "scripts": {
+    "test": "tape test.js",
+    "cov": "tap --coverage-report=html test.js"
+  },
+  "keywords": [
+    "simple",
+    "lightweight",
+    "small",
+    "fast",
+    "object",
+    "union",
+    "properties",
+    "keys",
+    "values"
+  ],
+  "author": "Matthew Voss",
+  "license": "ISC"
+}
